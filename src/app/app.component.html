@@ -1,0 +1,27 @@
+<nav class="deep-purple lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" [routerLink]="['/']" class="brand-logo">materializecss</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a [routerLink]="['/css']">CSS</a></li>
+            <li><a href="#">Components</a></li>
+            <li><a href="#">Javascript</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+            <li><a href="#">Navbar Link</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+
+<div class="container">
+    <!-- Router Outlet -->
+    <router-outlet></router-outlet>
+</div>
+
+<footer class="page-footer deep-purple darken-2">
+    <div class="footer-copyright">
+        <div class="container">
+            Made by <a class="deep-purple-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        </div>
+    </div>
+</footer>
