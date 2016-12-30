@@ -39,6 +39,10 @@ To get more help on the `angular-cli` use `ng help` or go check out the [Angular
 * [Angular Cli](https://github.com/angular/angular-cli)
 * [Google Masterial Icons](https://github.com/google/material-design-icons)
 * [Google Masterial Icons NPM](https://www.npmjs.com/package/material-design-icons)
+* [angular2-materialize](https://github.com/InfomediaLtd/angular2-materialize)
 
 ## Lab
 By [TNQSoftware](http://tnqsoft.com)
+
+## Demo
+[http://demo.tnqsoft.com/masterial/](http://demo.tnqsoft.com/masterial/)

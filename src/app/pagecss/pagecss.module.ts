@@ -5,6 +5,7 @@ import { PagecssComponent } from './pagecss.component';
 import { CsscolorComponent } from './csscolor/csscolor.component';
 import { PagecssRoutes } from './pagecss.routing';
 import { CssgridComponent } from './cssgrid/cssgrid.component';
+import { CsshelpersComponent } from './csshelpers/csshelpers.component';
 
 @NgModule({
   imports: [
@@ -14,7 +15,8 @@ import { CssgridComponent } from './cssgrid/cssgrid.component';
   declarations: [
     PagecssComponent,
     CsscolorComponent,
-    CssgridComponent
+    CssgridComponent,
+    CsshelpersComponent
 ]
 })
 export class PagecssModule { }
